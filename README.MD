@@ -1,3 +1,15 @@
+## Introduction
+很多论文中会将intent和slot进行绑定，用联合模型进行处理，本仓库以intent作为输入，加上额外的辞典属性特征，
+并以sequence labeling为基础的ensemble方案，进行模型结果融合，用集成方案减小单个模型的误差，并可以和规
+则模版产生的结果再次集成。
+
+## Features
+- char、word的embedding；
+- 辞典特征
+- intent特征
+
+## Model Structure
+
 ## Slot Filling
 
 ### 路径：models/slot_filling/inference/inference_by_bilstm.py
