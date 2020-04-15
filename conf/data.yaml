@@ -1,0 +1,7 @@
+model_num: 1
+model:
+  0: {encoder_type: "cnn_lstm"}
+  1: {encoder_type: "bilstm_crf", dset_path: 'saved_models/slot_filling/bilstm_crf/data/alphabet.dset'}
+  2: {encoder_type: "attn_bilstm_crf", dset_path: 'saved_models/slot_filling/attn_bilstm_crf/data/alphabet.dset'}
+  3: {encoder_type: "cnn_attn_lstm_crf", dset_path: 'saved_models/slot_filling/cnn_attn_lstm_crf/data/alphabet.dset'}
+  4: {encoder_type: "mul_bilstm_crf", dset_path: 'saved_models/slot_filling/mul_bilstm_crf/data/alphabet.dset'}
