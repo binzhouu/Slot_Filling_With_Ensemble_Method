@@ -1,0 +1,4 @@
+texts,intents,slots
+看中央6台,select_channel,"{'device': '', 'channel_name': '中央6台','channel_number': ''}"
+将灯的亮度调为100,set_brightness,"{'device': '灯', 'room': '', 'brightness': '100'}"
+将客厅灯的色温调为0,set_color_temperature,"{'room':'客厅','device': '灯', 'color_temperature': '0'}"
