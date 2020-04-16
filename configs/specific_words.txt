@@ -1,0 +1,2 @@
+word		onto_global			domain
+电视  		tool				television
